@@ -1,0 +1,38 @@
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(20vh, 40vh));
+	grid-template-rows: repeat(1, minmax(5vh, 5vh));
+	height: 100%;
+	grid-gap: 1px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.form-check {
+	margin-top: 20px;
+
+}
+
+.hidden-field {
+	display:none;
+}
+
+a {
+	font-size: 9pt;
+	color: #0645ad;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #faa700;
+}
+
+a:visited {
+	color: #0b0080;
+}
